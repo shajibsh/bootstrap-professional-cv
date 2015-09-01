@@ -1,0 +1,171 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Archivo+Narrow";
+
+body 
+{
+  background: #999;
+  font: 14px/1.7em "Open Sans",arial,sans-serif;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px #eee;
+    font-family: "Archivo Narrow",sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin-top: 1px;
+}
+
+ h2 {
+    font-family: "Archivo Narrow",sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 5px;
+    padding: 0;
+    font-size: 25px;
+    color: #D9534F;
+}
+
+h3 {
+    font-family: "Archivo Narrow",sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 5px;
+    padding: 0;
+    font-size: 25px;
+    
+}
+
+hr{
+    margin-bottom: 20px;
+    margin-top: 15px
+}
+
+.container {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    padding: 15px 20px 15px;
+}
+
+#profile-box
+{
+    text-align: center;
+    margin-top: 10px
+}
+
+.profile {
+    border: 3px solid #D9534F;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.about-me
+{
+    text-align: justify;
+}
+
+.job
+{
+    margin-left: -13px
+}
+
+.progress{
+    margin-top: 10px
+}
+
+
+#degree li {
+    position: relative;
+    width: 100%;
+    margin-left: 3px;
+}
+
+#degree .details {
+    border-left: 1px dashed #ddd;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 10px 0;
+    position: relative;
+    
+}
+
+#degree:before {
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+}
+
+#degree {
+    list-style: outside none none;
+    margin-top: 0px;
+    padding: 1em 0;
+    position: relative;
+    padding-top: 7px;
+    margin-bottom:0;
+    padding-bottom: 0
+
+}
+
+.degree-name, .box-text{
+    font-family: "Archivo Narrow",sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px
+
+}
+
+.box-text-normal{
+    font-weight: normal;
+    line-height: normal;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 5px;
+    color: #777
+}
+
+
+.social{
+    font-family: "Archivo Narrow",sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 27px
+}
+
+.soical-info
+{
+    font-family: sans-serif; float:right; top:4px; color: #777; font-size: 12px
+}
+
+.hr-line{
+    border-style:  dashed;
+    border-style: dashed;
+    margin-bottom: 5px;
+    margin-top: 5px
+}
+
+.box-header{
+    margin-bottom: 10px
+
+}
+a {
+    color: #777;
+}
+a:hover {
+    color: #d9534f;
+    text-decoration: none;
+}
+
